@@ -1,0 +1,26 @@
+<ion-navbar *navbar>
+  <ion-title>
+    Home
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="home">
+  <ion-card>
+    <ion-card-header>
+      Card Header
+    </ion-card-header>
+    <ion-card-content>
+      Hello World
+    </ion-card-content>
+  </ion-card>
+
+  <button (click)="secondpage()">Primary</button>
+
+
+  <ion-card class="advanced-background" (click)="secondpage()">
+    <img src="build/img/ic1.png" class="advanced-background-image"/>
+    <p class="advanced-background-title">FPE- Lite Edition</p>
+    <p class="advanced-background-subtitle">Whether you are looking to aggregate data across multiple systems or looking at managing your revenues and expense.</p>
+  </ion-card>
+
+</ion-content>
